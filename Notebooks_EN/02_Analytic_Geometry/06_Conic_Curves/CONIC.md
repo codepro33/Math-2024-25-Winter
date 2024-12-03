@@ -3,6 +3,7 @@ Hyperbola: $x^2 - y^2 = 1$
 
 Ellipse: $x^2 + 4y^2 = 6$
 ![alt text](image-1.png)
+
 1-step  
 Substitute $y^2$ of the hyperbola into the ellipse equation:  
 
