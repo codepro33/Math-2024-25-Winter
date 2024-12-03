@@ -24,5 +24,4 @@ $$y = \pm 1$$
 **Intersection points are:**
 $$(\sqrt{2}, 1), (\sqrt{2}, -1), (-\sqrt{2}, 1), (-\sqrt{2}, -1)$$
 
-![image](https://github.com/user-attachments/assets/0f94d9a0-8b59-42cf-a52e-6073eaf403e4)
-
+TASK-2
