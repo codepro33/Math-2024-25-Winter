@@ -17,19 +17,21 @@ It can be $\vec{AB}$ and $\vec{AC}$:
 
 **Step 2: Finding normal vectors**
 
-Normal vector can be found by taking cross product of $\vec{AB}$ and $\vec{AC}$:
+Normal vector can be found by taking the cross product of $\vec{AB}$ and $\vec{AC}$:
 $$
 \vec{AB} \times \vec{AC} = 
 \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
 2 & 2 & 2 \\
 1 & -1 & 1 \\
-\end{vmatrix} = \mathbf{i}(2 \cdot 1 - 2 \cdot (-1)) + \mathbf{j}(2 \cdot 1 - 2 \cdot 2) + \mathbf{k}(2 \cdot (-1) - 2 \cdot 1)
+\end{vmatrix} = \mathbf{i}(2 \cdot 1 - 2 \cdot (-1)) - \mathbf{j}(2 \cdot 1 - 2 \cdot 2) + \mathbf{k}(2 \cdot (-1) - 2 \cdot 1)
 $$
 $$
-= \mathbf{i}(2 + 2) + \mathbf{j}(2 - 2) + \mathbf{k}(-2 - 2)
-= 4\mathbf{i} - 0\mathbf{j} - 4\mathbf{k}
+= \mathbf{i}(2 + 2) - \mathbf{j}(2 - 4) + \mathbf{k}(-2 - 2)
+= 4\mathbf{i} - (-2)\mathbf{j} - 4\mathbf{k}
+= 4\mathbf{i} + 2\mathbf{j} - 4\mathbf{k}
 $$
+
 
 The normal vector is: $(4, 0, -4)$.
 
