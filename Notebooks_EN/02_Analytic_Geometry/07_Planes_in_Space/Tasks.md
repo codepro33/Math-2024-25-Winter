@@ -116,3 +116,84 @@ Solution is the same as second task, answer is
 $$
 2x + 3y + 4z = 20
 $$
+
+
+**Task 4**
+
+**Step 1:** Eliminate one variable from the system
+$$
+4x + 6y + 8z = 10
+$$
+$$
+12x + 16y + 8z = 24
+$$
+
+I have multiplied the first equation by 2 and the second by 4.
+
+Eliminate the first equation from the second:
+$$
+4x + 5y = 7
+$$
+
+**Step 2:**
+Choose $z$ as the parameter $t$, and express $x$ and $y$ in terms of $t$.
+
+Substitute $z = t$ into one of the original equations, let's say $2x + 3y + 4z = 5$:
+
+$$
+2x + 3y = 5 - 4t
+$$
+
+From $4x + 5y = 7$:
+
+$$
+y = \frac{7 - 4x}{5}
+$$
+
+Substitute:
+
+$$
+2x + 3\left(\frac{7 - 4x}{5}\right) = 5 - 4t
+$$
+
+Simplify:
+
+$$
+2x + \frac{21 - 12x}{5} = 5 - 4t
+$$
+
+$$
+10x + 21 - 12x = 25 - 20t
+$$
+
+$$
+-2x + 21 = 25 - 20t
+$$
+
+$$
+-2x = 4 - 20t
+$$
+
+$$
+x = -2 + 10t
+$$
+
+Now substitute $x = -2 + 10t$ back into $y$ equation:
+
+$$
+y = \frac{7 - 4(-2 + 10t)}{5}
+$$
+
+$$
+y = \frac{7 + 8 - 40t}{5}
+$$
+
+$$
+y = 3 - 8t
+$$
+
+Thus, the line of intersection is given by the parametric equations:
+
+$$
+x = -2 + 10t, \quad y = 3 - 8t, \quad z = t
+$$
