@@ -102,3 +102,13 @@ $$
 $$
 
 ![alt text](image-4.png)
+
+
+
+TASK-3
+
+Solution is the same as second task, answer is 
+
+$$
+2x + 3y + 4z = 20
+$$
