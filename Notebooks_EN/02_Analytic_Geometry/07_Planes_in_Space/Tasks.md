@@ -74,40 +74,44 @@ Parallel Plane:
 **Step 1:**
 Two planes are parallel if their normal vectors are parallel or proportional.
 
-Given plane $2x + 3y + 4z = 5$ has the normal vector $(2, 3, 4)$.
+Given plane $2x + 3y + 4z = 5$ has the normal vector  $(2, 3, 4)$.
 
 **Step 2:**
 The general equation of a plane using a point $P(x_1, y_1, z_1)$ and a normal vector $\vec{N} = (a, b, c)$ is:
+
 $$
 a(x - x_1) + b(y - y_1) + c(z - z_1) = 0
 $$
+
 Simplify:
+
 $$
 ax + by + cz = ax_1 + by_1 + cz_1
 $$
 
 **Step 3:**
 Substitute values $\vec{N} = (2, 3, 4)$ and $A = (1, 2, 3)$:
+
 $$
 2(x - 1) + 3(y - 2) + 4(z - 3) = 0
 $$
 
 Expanding and simplifying:
+
 $$
 2(x - 1) + 3(y - 2) + 4(z - 3) = 0 \implies 2x - 2 + 3y - 6 + 4z - 12 = 0 \implies 2x + 3y + 4z - 20 = 0
 $$
+
 The final equation is:
+
 $$
 2x + 3y + 4z = 20
 $$
 
 ![alt text](image-4.png)
 
-
-
 TASK-3
-
-Solution is the same as second task, answer is 
+Solution is the same as second task, answer is
 
 $$
 2x + 3y + 4z = 20
