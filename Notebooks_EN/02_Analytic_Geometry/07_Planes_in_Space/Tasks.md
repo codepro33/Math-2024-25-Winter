@@ -46,7 +46,9 @@ $$4x + 0y - 4z = D \rightarrow 4x - 4z = D$$
 
 Substituting point $A(1, 2, 3)$:
 $$4(1) - 4(3) = D$$
+
 $$4 - 12 = D$$
+
 $$D = -8$$
 
 Thus, the equation of the plane is:
