@@ -82,6 +82,7 @@ The general equation of a plane using a point $P(x_1, y_1, z_1)$ and a normal ve
 $$
 a(x - x_1) + b(y - y_1) + c(z - z_1) = 0
 $$
+
 Simplify:
 
 $$
@@ -100,6 +101,7 @@ Expanding and simplifying:
 $$
 2(x - 1) + 3(y - 2) + 4(z - 3) = 0 \implies 2x - 2 + 3y - 6 + 4z - 12 = 0 \implies 2x + 3y + 4z - 20 = 0
 $$
+
 The final equation is:
 
 $$
