@@ -1,4 +1,5 @@
 Hyperbola: $x^2 - y^2 = 1$
+![alt text](image.png)
 
 Ellipse: $x^2 + 4y^2 = 6$
 
