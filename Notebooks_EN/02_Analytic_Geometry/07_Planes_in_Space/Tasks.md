@@ -121,9 +121,11 @@ $$
 **Task 4**
 
 **Step 1:** Eliminate one variable from the system
+
 $$
 4x + 6y + 8z = 10
 $$
+
 $$
 12x + 16y + 8z = 24
 $$
@@ -131,6 +133,7 @@ $$
 I have multiplied the first equation by 2 and the second by 4.
 
 Eliminate the first equation from the second:
+
 $$
 4x + 5y = 7
 $$
