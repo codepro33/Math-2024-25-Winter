@@ -26,6 +26,7 @@ $$
 1 & -1 & 1 \\
 \end{vmatrix} = \mathbf{i}(2 \cdot 1 - 2 \cdot (-1)) - \mathbf{j}(2 \cdot 1 - 2 \cdot 2) + \mathbf{k}(2 \cdot (-1) - 2 \cdot 1)
 $$
+
 $$
 = \mathbf{i}(2 + 2) - \mathbf{j}(2 - 4) + \mathbf{k}(-2 - 2)
 = 4\mathbf{i} - (-2)\mathbf{j} - 4\mathbf{k}
