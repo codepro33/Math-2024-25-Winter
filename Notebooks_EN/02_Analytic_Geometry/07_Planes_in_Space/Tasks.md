@@ -204,7 +204,9 @@ $$
 Where the line of intersection is:
 
 $$
-x = -2 + 10t, \quad y = 3 - 8t, \quad z = t
+x = -2 + 10t,
+\quad y = 3 - 8t,
+\quad z = t
 $$
 
 Line can be expressed in vector form as:
