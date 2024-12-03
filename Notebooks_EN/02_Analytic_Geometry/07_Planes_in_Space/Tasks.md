@@ -202,16 +202,21 @@ x = -2 + 10t, \quad y = 3 - 8t, \quad z = t
 $$
 
 Where the line of intersection is:
+
 $$
 x = -2 + 10t, \quad y = 3 - 8t, \quad z = t
 $$
+
 Line can be expressed in vector form as:
+
 $$
 \vec{r}(t) = \vec{r}_0 + t\vec{d}
 $$
+
 Where $\vec{r}_0 = (-2, 3, 0)$ is the initial point and $\vec{d} = (10, -8, 1)$ is the direction vector of the line.
 
 Line of intersection is:
+
 $$
 \vec{r}(t) = (-2, 3, 0) + t(10, -8, 1)
 $$
