@@ -120,6 +120,10 @@ $$
 
 **Task 4**
 
+- We have two planes \(2x + 3y + 4z = 5\) and \(3x + 4y + 2z = 6\). Find the line of intersection of these planes.
+
+![alt text](image-5.png)
+
 **Step 1:** Eliminate one variable from the system
 
 $$
