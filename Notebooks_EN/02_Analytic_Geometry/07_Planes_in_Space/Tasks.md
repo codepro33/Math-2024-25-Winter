@@ -226,3 +226,54 @@ Line of intersection is:
 $$
 \vec{r}(t) = (-2, 3, 0) + t(10, -8, 1)
 $$
+
+
+The fifth task is to write the equation of the plane passing through the point \(A(1, 2, 3)\) and parallel to the vectors \(\vec{v}_1 = (1, 0, 1)\) and \(\vec{v}_2 = (0, 1, -1)\).
+
+### Task-5
+
+#### Step 1: Find the Normal Vector
+To find the equation of the plane, you first need to find a normal vector to the plane, which can be calculated by taking the cross product of the two direction vectors parallel to the plane.
+
+Given:
+- \(\vec{v}_1 = (1, 0, 1)\)
+- \(\vec{v}_2 = (0, 1, -1)\)
+
+The cross product \(\vec{v}_1 \times \vec{v}_2\) is computed as:
+
+$$
+\vec{n} = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+1 & 0 & 1 \\
+0 & 1 & -1 \\
+\end{vmatrix} = \mathbf{i}(0 \times (-1) - 1 \times 1) - \mathbf{j}(1 \times (-1) - 1 \times 0) + \mathbf{k}(1 \times 1 - 0 \times 0)
+= \mathbf{i}(-1) - \mathbf{j}(-1) + \mathbf{k}(1)
+= (-1, 1, 1)
+$$
+
+#### Step 2: Write the Plane Equation
+Using the normal vector \(\vec{n} = (-1, 1, 1)\) and the point \(A(1, 2, 3)\) to write the equation of the plane. The general form of the plane equation through point is:
+
+$$
+a(x - x_1) + b(y - y_1) + c(z - z_1) = 0
+$$
+
+Substitute:
+
+$$
+-1(x - 1) + 1(y - 2) + 1(z - 3) = 0
+$$
+
+
+$$
+-x + y + z - 4 = 0
+$$
+
+#### Final Equation of the Plane
+The final equation of the plane is:
+
+$$
+x - y - z = -4 
+$$
+
+This equation represents the plane passing through point \(A\) and parallel to the vectors \(\vec{v}_1\) and \(\vec{v}_2\).
