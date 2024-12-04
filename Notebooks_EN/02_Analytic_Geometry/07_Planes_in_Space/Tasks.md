@@ -255,7 +255,7 @@ $$
 $$
 
 #### Step 2: Write the Plane Equation
-Using the normal vector \(\vec{n} = (-1,-1, 1)\) and the point \(A(1, 2, 3)\) to write the equation of the plane. The general form of the plane equation through point is:
+Using the normal vector \(\vec{n} = (-1, 1, 1)\) and the point \(A(1, 2, 3)\) to write the equation of the plane. The general form of the plane equation through point is:
 
 $$
 a(x - x_1) + b(y - y_1) + c(z - z_1) = 0
@@ -264,18 +264,18 @@ $$
 Substitute:
 
 $$
--1(x - 1) - 1(y - 2) + 1(z - 3) = 0
+-1(x - 1) + 1(y - 2) + 1(z - 3) = 0
 $$
 
 
 $$
--x - y + z = 0
+x - y - z + 4 = 0
 $$
 
 #### Final Equation of the Plane
 The final equation of the plane is:
 
 $$
-x - y - z = 0
+x - y - z = - 4
 $$
 
