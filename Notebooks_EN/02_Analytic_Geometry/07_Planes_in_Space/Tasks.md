@@ -232,7 +232,9 @@ The fifth task is to write the equation of the plane passing through the point \
 
 ### Task-5
 
-- Write the equation of the plane passing through point \(A(1, 2, 3)\) and parallel to vectors \(\vec{v}_1 = (1, 0, 1)\) and \(\vec{v}_2 = (0, 1, -1)\). Find the equation of the plane.
+- Write the equation of the plane passing through point \(A(1, 2, 3)\) and parallel to vectors \(\vec{v}_1 = (1, 0, 1)\) and \(\vec{v}_2 = (0, 1, -1)\). Find the equation of the plane.-
+
+![image](https://github.com/user-attachments/assets/a20a5a13-8507-4456-9a64-5f9ca85ac0a2)
 
 
 #### Step 1: Find the Normal Vector
@@ -278,4 +280,6 @@ The final equation of the plane is:
 $$
 x - y - z = - 4
 $$
+
+![image](https://github.com/user-attachments/assets/99bd1969-1a76-4a4a-9149-cbdba61c495f)
 
