@@ -26,4 +26,6 @@ We need to compute $f(g(x))$, which means substituting $g(x)$ into $f(x)$.
 $$ f(g(x)) = 3\sqrt{x} - 1 $$
 
 
+
 ![alt text](image-1.png)
+![alt text](image.png)
