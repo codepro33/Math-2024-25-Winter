@@ -28,3 +28,5 @@ $$ f(g(x)) = 3\sqrt{x} - 1 $$
 
 
 ![alt text](image-1.png)
+
+
