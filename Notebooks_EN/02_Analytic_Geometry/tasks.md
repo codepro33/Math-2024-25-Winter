@@ -52,20 +52,21 @@ We need to compute $g(f(x))$, which means substituting $f(x)$ into $g(x)$.
 
 #### Steps:
 1. Substitute $f(x) = 3x - 1$ into $g(x) = \sqrt{x}$:
-   $$ g(f(x)) = g(3x - 1) $$
+   $$g(f(x)) = g(3x - 1)$$
 
 2. Apply the definition of $g(x) = \sqrt{x}$, replacing $x$ in $g(x)$ with $3x - 1$:
-   $$ g(3x - 1) = \sqrt{3x - 1} $$
+   $$g(3x - 1) = \sqrt{3x - 1}$$
 
 3. Simplify:
-   $$ g(f(x)) = \sqrt{3x - 1} $$
+   $$g(f(x)) = \sqrt{3x - 1}$$
 
 ---
 
 ### Final Answer:
-$$ g(f(x)) = \sqrt{3x - 1} $$
+$$g(f(x)) = \sqrt{3x - 1}$$
 
 ![alt text](image-3.png)
+<<<<<<< HEAD
 
 
                                                     TASK-3
@@ -99,3 +100,5 @@ We need to compute $f(f(x))$, which means applying $f(x)$ to the result of $f(x)
 $$f(f(x)) = 9x - 4$$
                                             
   ![alt text](image-5.png)                                          
+=======
+>>>>>>> cbb4b1d2101972a7b35bb80db94526e0398f5a02
