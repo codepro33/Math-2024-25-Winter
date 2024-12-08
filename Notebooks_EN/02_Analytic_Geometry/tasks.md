@@ -98,4 +98,35 @@ We need to compute $f(f(x))$, which means applying $f(x)$ to the result of $f(x)
 ### Final Answer:
 $$f(f(x)) = 9x - 4$$
                                             
-  ![alt text](image-5.png)                                          
+  ![alt text](image-5.png)       
+
+                                         TASK-4
+### Solution
+
+#### Given:
+1. $f(x) = 3x - 1$
+2. $g(x) = \sqrt{x}$
+
+We need to compute $g(g(x))$, which means applying $g(x)$ to the result of $g(x)$.
+
+---
+![alt text](image-6.png)
+
+#### Steps:
+1. Start with $g(x) = \sqrt{x}$. This is the first application of $g(x)$.
+
+2. Apply $g$ again, replacing $x$ in $g(x)$ with $g(x)$:
+   $$g(g(x)) = g(\sqrt{x})$$
+
+3. Use the definition of $g(x) = \sqrt{x}$, replacing $x$ in $g(x)$ with $\sqrt{x}$:
+   $$g(\sqrt{x}) = \sqrt{\sqrt{x}}$$
+
+4. Simplify:
+   $$g(g(x)) = x^{1/4}$$
+
+---
+
+### Final Answer:
+$$g(g(x)) = x^{1/4}$$
+
+![alt text](image-7.png)
