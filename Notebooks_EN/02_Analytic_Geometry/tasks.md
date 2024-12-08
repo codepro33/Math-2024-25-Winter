@@ -30,3 +30,33 @@ $$ f(g(x)) = 3\sqrt{x} - 1 $$
 ![alt text](image-1.png)
 
 
+                                                      TASK-2
+
+### Solution
+
+#### Given:
+1. $f(x) = 3x - 1$
+2. $g(x) = \sqrt{x}$
+
+We need to compute $g(f(x))$, which means substituting $f(x)$ into $g(x)$.
+
+---
+
+![alt text](image-2.png)
+
+#### Steps:
+1. Substitute $f(x) = 3x - 1$ into $g(x) = \sqrt{x}$:
+   $$ g(f(x)) = g(3x - 1) $$
+
+2. Apply the definition of $g(x) = \sqrt{x}$, replacing $x$ in $g(x)$ with $3x - 1$:
+   $$ g(3x - 1) = \sqrt{3x - 1} $$
+
+3. Simplify:
+   $$ g(f(x)) = \sqrt{3x - 1} $$
+
+---
+
+### Final Answer:
+$$ g(f(x)) = \sqrt{3x - 1} $$
+
+![alt text](image-3.png)
