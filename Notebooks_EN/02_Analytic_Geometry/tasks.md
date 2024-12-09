@@ -1,3 +1,15 @@
+### Problem
+
+Let $f(x) = 3x - 1$ and $g(x) = \sqrt{x}$. Find:
+- $f(g(x))$
+- $g(f(x))$
+- $f(f(x))$
+- $g(g(x))$
+
+and visualize functions in a single GeoGebra notebook.
+
+                                          TASK-1
+
 ### Solution
 
 #### Given:
