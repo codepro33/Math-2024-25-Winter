@@ -142,3 +142,43 @@ We need to compute $g(g(x))$, which means applying $g(x)$ to the result of $g(x)
 $$g(g(x)) = x^{1/4}$$
 
 ![alt text](image-7.png)
+
+
+
+
+
+
+                          ![alt text](image-8.png)
+
+
+### Problem
+
+Let $f(x) = e^x$ and $g(x) = \ln(x)$. Check:
+- $f(g(x))$
+- $g(f(x))$
+
+---
+
+### Solution
+
+1. **Compute $f(g(x))$:**
+   Substitute $g(x) = \ln(x)$ into $f(x) = e^x$:
+   $$ f(g(x)) = f(\ln(x)) = e^{\ln(x)} $$
+
+   Using the property of logarithms and exponents ($e^{\ln(x)} = x$):
+   $$ f(g(x)) = x $$
+
+2. **Compute $g(f(x))$:**
+   Substitute $f(x) = e^x$ into $g(x) = \ln(x)$:
+   $$ g(f(x)) = g(e^x) = \ln(e^x) $$
+
+   Using the property of logarithms ($\ln(e^x) = x$):
+   $$ g(f(x)) = x $$
+
+---
+
+### Observation
+For both $f(g(x))$ and $g(f(x))$, the result is:
+$$ x $$
+
+This shows that $f(x)$ and $g(x)$ are **inverse functions** of each other.
