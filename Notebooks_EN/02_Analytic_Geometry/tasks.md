@@ -232,3 +232,153 @@ For the inverse function $f^{-1}$, swap each pair. Note that since $7$ correspon
 
 ### Final Answer:
 The function $f=\{(1,7),(2,7),(3,11)\}$ does not have an inverse because it is not one-to-one.
+
+-------------------------------------------------------------------------------------------------
+
+![alt text](image-12.png)
+
+
+### Solution
+
+We need to calculate:
+
+$$\lim_{n\to\infty}\frac{n^2+3n}{2n^2-2n}$$
+
+---
+
+### Step 1: Simplify the expression
+The highest power of $n$ in both the numerator and denominator is $n^2$. To simplify, divide every term in the numerator and denominator by $n^2$:
+
+$$\frac{n^2+3n}{2n^2-2n}=\frac{\frac{n^2}{n^2}+\frac{3n}{n^2}}{\frac{2n^2}{n^2}-\frac{2n}{n^2}}=\frac{1+\frac{3}{n}}{2-\frac{2}{n}}$$
+
+---
+
+### Step 2: Take the limit as $n\to\infty$
+As $n$ approaches infinity, terms like $\frac{3}{n}$ and $\frac{2}{n}$ approach $0$. This leaves us with:
+
+$$\frac{1+0}{2-0}=\frac{1}{2}$$
+
+---
+
+### Final Answer:
+$$\frac{1}{2}$$
+
+--------------------------------------------------------------------------------
+
+
+
+
+### Solution
+
+We need to calculate:
+
+$$\lim_{n\to\infty}\frac{(2n+3)^3}{n^3-1}$$
+
+---------------------------------------------------------------------------------------
+
+![alt text](image-13.png)
+
+### Step 1: Expand the numerator
+Expand $(2n+3)^3$ using the binomial theorem:
+
+$$(2n+3)^3=(2n)^3+3(2n)^2(3)+3(2n)(3^2)+3^3=8n^3+12n^2+18n+27$$
+
+So, the fraction becomes:
+
+$$\frac{(2n+3)^3}{n^3-1}=\frac{8n^3+12n^2+18n+27}{n^3-1}$$
+
+---
+
+### Step 2: Divide all terms by $n^3$
+To simplify, divide both the numerator and the denominator by $n^3$:
+
+$$\frac{8n^3+12n^2+18n+27}{n^3-1}=\frac{\frac{8n^3}{n^3}+\frac{12n^2}{n^3}+\frac{18n}{n^3}+\frac{27}{n^3}}{\frac{n^3}{n^3}-\frac{1}{n^3}}=\frac{8+\frac{12}{n}+\frac{18}{n^2}+\frac{27}{n^3}}{1-\frac{1}{n^3}}$$
+
+---
+
+### Step 3: Take the limit as $n\to\infty$
+As $n$ approaches infinity, terms like $\frac{12}{n}$, $\frac{18}{n^2}$, $\frac{27}{n^3}$, and $\frac{1}{n^3}$ approach $0$. This simplifies to:
+
+$$\frac{8+0+0+0}{1-0}=8$$
+
+---
+
+### Final Answer:
+$$\lim_{n\to\infty}\frac{(2n+3)^3}{n^3-1}=8$$
+
+----------------------------
+
+
+
+
+### Solution
+
+We need to prove:
+
+$$\lim_{n\to\infty}\frac{\sin(n)}{n}=0$$
+
+using the Squeeze Theorem.
+
+-----------------------------
+
+
+![alt text](image-14.png)
+
+
+### Step 1: Use the bounded property of $\sin(n)$
+The sine function is bounded, meaning:
+
+$$-1\leq\sin(n)\leq1$$
+
+---
+
+### Step 2: Divide through by $n$ (for $n>0$)
+Dividing the inequality by $n$, we get:
+
+$$\frac{-1}{n}\leq\frac{\sin(n)}{n}\leq\frac{1}{n}$$
+
+---
+
+### Step 3: Apply the Squeeze Theorem
+As $n\to\infty$, both $\frac{-1}{n}$ and $\frac{1}{n}$ approach $0$:
+
+$$\lim_{n\to\infty}\frac{-1}{n}=0\quad\text{and}\quad\lim_{n\to\infty}\frac{1}{n}=0$$
+
+By the Squeeze Theorem:
+
+$$\lim_{n\to\infty}\frac{\sin(n)}{n}=0$$
+
+---
+
+### Final Answer:
+$$\lim_{n\to\infty}\frac{\sin(n)}{n}=0$$
+
+
+--------------------------------------------------------------------------
+
+![alt text](image-15.png)
+
+
+### Solution
+
+We need to find the limit of the sequence:
+
+$$a_n=\left(1+\frac{1}{n}\right)^n$$
+
+---
+
+### Step 1: Recognize the definition of $e$
+The sequence resembles the mathematical definition of the constant $e$:
+
+$$e=\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n$$
+
+---
+
+### Step 2: Apply the limit
+As $n\to\infty$, the given sequence $a_n=\left(1+\frac{1}{n}\right)^n$ approaches the value of $e$.
+
+---
+
+### Final Answer:
+$$\lim_{n\to\infty}a_n=e\approx2.718$$
+
