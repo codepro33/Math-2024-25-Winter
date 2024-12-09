@@ -147,8 +147,7 @@ $$g(g(x)) = x^{1/4}$$
 
 
 
-
-                          ![alt text](image-8.png)
+![alt text](image-8.png)
 
 
 ### Problem
