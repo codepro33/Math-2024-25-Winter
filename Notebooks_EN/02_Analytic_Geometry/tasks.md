@@ -265,7 +265,7 @@ $$\frac{1}{2}$$
 
 --------------------------------------------------------------------------------
 
-
+![alt text](image-13.png)
 
 
 ### Solution
@@ -273,10 +273,6 @@ $$\frac{1}{2}$$
 We need to calculate:
 
 $$\lim_{n\to\infty}\frac{(2n+3)^3}{n^3-1}$$
-
----------------------------------------------------------------------------------------
-
-![alt text](image-13.png)
 
 ### Step 1: Expand the numerator
 Expand $(2n+3)^3$ using the binomial theorem:
@@ -309,7 +305,7 @@ $$\lim_{n\to\infty}\frac{(2n+3)^3}{n^3-1}=8$$
 ----------------------------
 
 
-
+![alt text](image-14.png)
 
 ### Solution
 
@@ -318,13 +314,7 @@ We need to prove:
 $$\lim_{n\to\infty}\frac{\sin(n)}{n}=0$$
 
 using the Squeeze Theorem.
-
------------------------------
-
-
-![alt text](image-14.png)
-
-
+--------------------------
 ### Step 1: Use the bounded property of $\sin(n)$
 The sine function is bounded, meaning:
 
