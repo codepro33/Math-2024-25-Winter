@@ -209,3 +209,26 @@ $$f^{-1}=\{(7,1),(9,2),(11,3)\}$$
 
 ### Final Answer:
 $$f^{-1}=\{(7,1),(9,2),(11,3)\}$$
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+![alt text](image-11.png)
+
+
+### Solution
+
+To find the inverse of the given function $f=\{(1,7),(2,7),(3,11)\}$, we swap the input (domain) and output (range) for each pair.
+
+---
+
+### Original Function:
+$$f=\{(1,7),(2,7),(3,11)\}$$
+
+### Inverse Function:
+For the inverse function $f^{-1}$, swap each pair. Note that since $7$ corresponds to two different inputs $(1,7)$ and $(2,7)$, the function is **not one-to-one** and does not have a proper inverse.
+
+---
+
+### Final Answer:
+The function $f=\{(1,7),(2,7),(3,11)\}$ does not have an inverse because it is not one-to-one.
