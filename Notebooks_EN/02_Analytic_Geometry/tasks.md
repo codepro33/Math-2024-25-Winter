@@ -47,7 +47,7 @@ $$ f(g(x)) = 3\sqrt{x} - 1 $$
 
 ![alt text](image-1.png)
 
-
+--------------------------------------------------------------------------------------------------------
                                                       TASK-2
 
 ### Solution
@@ -79,7 +79,7 @@ $$ g(f(x)) = \sqrt{3x - 1} $$
 
 ![alt text](image-3.png)
 
-
+-------------------------------------------------------------------------------------------------------------------------------
                                                     TASK-3
  ### Solution
 
@@ -111,7 +111,7 @@ We need to compute $f(f(x))$, which means applying $f(x)$ to the result of $f(x)
 $$f(f(x)) = 9x - 4$$
                                             
   ![alt text](image-5.png)       
-
+--------------------------------------------------------------------------------------------------------
                                          TASK-4
 ### Solution
 
@@ -144,7 +144,7 @@ $$g(g(x)) = x^{1/4}$$
 ![alt text](image-7.png)
 
 
-
+-------------------------------------------------------------------------------------------------
 
 
 ![alt text](image-8.png)
@@ -181,3 +181,31 @@ For both $f(g(x))$ and $g(f(x))$, the result is:
 $$ x $$
 
 This shows that $f(x)$ and $g(x)$ are **inverse functions** of each other.
+
+![alt text](image-9.png)
+
+
+![alt text](<Снимок экрана 2024-12-09 064933.png>)
+
+-------------------------------------------------------------------------------------------------------------
+
+![alt text](image-10.png)
+
+### Solution
+
+To find the inverse of the given function $f=\{(1,7),(2,9),(3,11)\}$, we swap the input (domain) and output (range) for each pair.
+
+---
+
+### Original Function:
+$$f=\{(1,7),(2,9),(3,11)\}$$
+
+### Inverse Function:
+For the inverse function $f^{-1}$, swap each pair:
+
+$$f^{-1}=\{(7,1),(9,2),(11,3)\}$$
+
+---
+
+### Final Answer:
+$$f^{-1}=\{(7,1),(9,2),(11,3)\}$$
