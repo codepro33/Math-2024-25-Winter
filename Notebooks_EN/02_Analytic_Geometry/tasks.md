@@ -529,11 +529,15 @@ $$\frac{dy}{dx}=-3$$
 - **Step 2:** Derivative of $\sin(1)$ (a constant) is $0$.
 $$\frac{dy}{dx}=\pi$$
 
+![alt text](image-20.png)
+
 ---
 
 ### 3. \(y(x) = 4 + \sin(2)\)
 - **Step 1:** Both terms are constants, so the derivative is $0$.
 $$\frac{dy}{dx}=0$$
+
+![alt text](image-21.png)
 
 ---
 
@@ -545,12 +549,16 @@ $$\frac{dy}{dx}=0$$
   $$\frac{d}{dx}(-9)=0$$  
 $$\frac{dy}{dx}=6x^2-6x+8$$
 
+![alt text](image-22.png)
+
 ---
 
 ### 5. \(y(x) = 6x^{1/3}\)
 - **Step 1:** Apply the power rule:
 $$\frac{d}{dx}(6x^{1/3})=6\cdot\frac{1}{3}x^{-2/3}=2x^{-2/3}$$
 $$\frac{dy}{dx}=2x^{-2/3}$$
+
+![alt text](image-23.png)
 
 ---
 
@@ -560,12 +568,16 @@ $$\frac{dy}{dx}=2x^{-2/3}$$
 $$\frac{d}{dx}(x^{1/2})=\frac{1}{2}x^{-1/2}=\frac{1}{2\sqrt{x}}$$
 $$\frac{dy}{dx}=\frac{1}{2\sqrt{x}}$$
 
+![alt text](image-24.png)
+
 ---
 
 ### 7. \(y(x) = \cos(x) + \sin(x)\)
 - **Step 1:** Derivative of $\cos(x)$ is $-\sin(x)$.
 - **Step 2:** Derivative of $\sin(x)$ is $\cos(x)$.
 $$\frac{dy}{dx}=-\sin(x)+\cos(x)$$
+
+![alt text](image-25.png)
 
 ---
 
@@ -576,6 +588,8 @@ $$\frac{dy}{dx}=-\sin(x)+\cos(x)$$
 - **Step 2:** Combine terms:
 $$\frac{dy}{dx}=2\cos^2(x)-2\sin^2(x)$$
 
+![alt text](image-26.png)
+
 ---
 
 ### 9. \(y(x) = x\sin(x)\)
@@ -584,6 +598,8 @@ $$\frac{dy}{dx}=2\cos^2(x)-2\sin^2(x)$$
   $u'=1$, $v'=\cos(x)$.  
 - **Step 2:** Combine terms:
 $$\frac{dy}{dx}=\sin(x)+x\cos(x)$$
+
+![alt text](image-27.png)
 
 ---
 
@@ -596,6 +612,8 @@ $$y(x)=x^2+2x+1$$
   $$\frac{d}{dx}(1)=0$$  
 $$\frac{dy}{dx}=2x+2$$
 
+![alt text](image-28.png)
+
 ---
 
 ### 11. \(y(x) = \frac{x}{x+1}\)
@@ -604,6 +622,8 @@ $$\frac{dy}{dx}=2x+2$$
   $u'=1$, $v'=1$.  
 - **Step 2:** Substitute:
 $$\frac{dy}{dx}=\frac{(1)(x+1)-(x)(1)}{(x+1)^2}=\frac{1}{(x+1)^2}$$
+
+![alt text](image-29.png)
 
 ---
 
@@ -614,6 +634,8 @@ $$\frac{dy}{dx}=\frac{(1)(x+1)-(x)(1)}{(x+1)^2}=\frac{1}{(x+1)^2}$$
 - **Step 2:** Combine terms:
 $$\frac{dy}{dx}=\exp(x)(x+1)+\exp(x)=\exp(x)(x+2)$$
 
+![alt text](image-30.png)
+
 ---
 
 ### 13. \(y(x) = \sin(x^2)\)
@@ -623,6 +645,8 @@ $$\frac{dy}{dx}=\exp(x)(x+1)+\exp(x)=\exp(x)(x+2)$$
 - **Step 2:** Combine:
 $$\frac{dy}{dx}=2x\cos(x^2)$$
 
+![alt text](image-31.png)
+
 ---
 
 ### 14. \(y(x) = \exp(-2x)\)
@@ -631,6 +655,8 @@ $$\frac{dy}{dx}=2x\cos(x^2)$$
   - Inner function: $u=-2x$, derivative is $-2$.  
 - **Step 2:** Combine:
 $$\frac{dy}{dx}=-2\exp(-2x)$$
+
+![alt text](image-32.png)
 
 ---
 
@@ -642,6 +668,8 @@ $$\frac{dy}{dx}=-2\exp(-2x)$$
 - **Step 3:** Combine:
 $$\frac{dy}{dx}=-\frac{\cos(x+1)}{\sin^2(x+1)}$$
 
+![alt text](image-33.png)
+
 ---
 
 ### 16. \(y(x) = \sqrt{2x+1}\)
@@ -651,5 +679,7 @@ $$\frac{dy}{dx}=-\frac{\cos(x+1)}{\sin^2(x+1)}$$
   - Inner function: $u=2x+1$, derivative is $2$.  
 - **Step 3:** Combine:
 $$\frac{dy}{dx}=\frac{1}{\sqrt{2x+1}}$$
+
+![alt text](image-34.png)
 
 
