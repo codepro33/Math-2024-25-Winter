@@ -372,3 +372,91 @@ As $n\to\infty$, the given sequence $a_n=\left(1+\frac{1}{n}\right)^n$ approache
 ### Final Answer:
 $$\lim_{n\to\infty}a_n=e\approx2.718$$
 
+-----------------------
+
+![alt text](image-16.png)
+
+# Problem: Compute
+$$\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3}.$$
+
+---
+
+## Step 1: Divide numerator and denominator by the highest power of $x$ in the denominator
+
+The highest power of $x$ in the denominator is $x^4$. Divide every term in the numerator and denominator by $x^4$:
+
+$$\frac{x^3 + 2x^2}{x^4 - 3x^3} = \frac{\frac{x^3}{x^4} + \frac{2x^2}{x^4}}{\frac{x^4}{x^4} - \frac{3x^3}{x^4}}.$$
+
+Simplify each term:
+
+$$= \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}}.$$
+
+---
+
+## Step 2: Evaluate the limit as $x \to \infty$
+
+As $x \to \infty$:
+- $\frac{1}{x} \to 0$,
+- $\frac{2}{x^2} \to 0$,
+- $\frac{3}{x} \to 0$.
+
+Substitute these into the simplified expression:
+
+$$\lim_{x \to \infty} \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}} = \frac{0 + 0}{1 - 0}.$$
+
+---
+
+## Final Answer:
+$$\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3} = 0.$$
+
+
+---------------------
+
+![alt text](image-17.png)
+
+
+# Problem: Find
+$$\lim_{x \to 0} \frac{\sin(3x)}{2x + 1}.$$
+
+---
+
+## Step 1: Analyze the limit
+As $x \to 0$:
+- The numerator, $\sin(3x)$, approaches $\sin(0) = 0$.
+- The denominator, $2x + 1$, approaches $1$.
+
+The limit is thus indeterminate of the form $\frac{0}{1}$, so we can proceed with direct substitution or simplifications.
+
+---
+
+## Step 2: Apply substitution for small-angle approximation
+For small $x$, the approximation $\sin(kx) \approx kx$ holds true. In this case:
+$$\sin(3x) \approx 3x.$$
+
+Substitute this into the limit:
+
+$$\lim_{x \to 0} \frac{\sin(3x)}{2x + 1} \approx \lim_{x \to 0} \frac{3x}{2x + 1}.$$
+
+---
+
+## Step 3: Simplify the expression
+Divide numerator and denominator by $x$:
+$$\frac{3x}{2x + 1} = \frac{3}{2 + \frac{1}{x}}.$$
+
+---
+
+## Final Evaluation
+As $x \to 0$:
+- $\sin(3x) \to 0$,
+- $2x + 1 \to 1$.
+
+Substitute these directly:
+
+$$\frac{\sin(3x)}{2x + 1} = \frac{0}{1} = 0.$$
+
+---
+
+## Final Answer:
+$$\lim_{x \to 0} \frac{\sin(3x)}{2x + 1} = 0.$$
+
+
