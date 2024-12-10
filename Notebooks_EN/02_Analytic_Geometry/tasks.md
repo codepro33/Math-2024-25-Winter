@@ -425,38 +425,86 @@ As $x \to 0$:
 - The numerator, $\sin(3x)$, approaches $\sin(0) = 0$.
 - The denominator, $2x + 1$, approaches $1$.
 
-The limit is thus indeterminate of the form $\frac{0}{1}$, so we can proceed with direct substitution or simplifications.
-
 ---
 
-## Step 2: Apply substitution for small-angle approximation
-For small $x$, the approximation $\sin(kx) \approx kx$ holds true. In this case:
-$$\sin(3x) \approx 3x.$$
+## Step 2: Evaluate directly
+Substitute $x = 0$ into the expression:
 
-Substitute this into the limit:
-
-$$\lim_{x \to 0} \frac{\sin(3x)}{2x + 1} \approx \lim_{x \to 0} \frac{3x}{2x + 1}.$$
-
----
-
-## Step 3: Simplify the expression
-Divide numerator and denominator by $x$:
-$$\frac{3x}{2x + 1} = \frac{3}{2 + \frac{1}{x}}.$$
-
----
-
-## Final Evaluation
-As $x \to 0$:
-- $\sin(3x) \to 0$,
-- $2x + 1 \to 1$.
-
-Substitute these directly:
-
-$$\frac{\sin(3x)}{2x + 1} = \frac{0}{1} = 0.$$
+$$\frac{\sin(3x)}{2x + 1} = \frac{\sin(0)}{2(0) + 1} = \frac{0}{1}.$$
 
 ---
 
 ## Final Answer:
 $$\lim_{x \to 0} \frac{\sin(3x)}{2x + 1} = 0.$$
 
+-------------------------
+
+![alt text](image-18.png)
+
+# Problem: Find the asymptotes of the functions
+1. $f(x) = \frac{x^2 - 1}{x^2 + 1}$
+2. $g(x) = \frac{\sin(x)}{x^2 + 1}$
+
+---
+
+## 1. $f(x) = \frac{x^2 - 1}{x^2 + 1}$
+
+### Step 1: Vertical Asymptotes
+- Vertical asymptotes occur where the denominator $x^2 + 1 = 0$.
+- Solve:
+  $$x^2 + 1 = 0$$
+  $$x^2 = -1$$
+  Since $x^2$ cannot be negative, there are no real solutions.  
+  **Result**: No vertical asymptotes.
+
+### Step 2: Horizontal Asymptotes
+- Horizontal asymptotes are determined by the behavior of $f(x)$ as $x \to \infty$ or $x \to -\infty$.
+- Compare the degrees of the numerator ($x^2$) and denominator ($x^2$):
+  - The degrees are equal, so the horizontal asymptote is the ratio of the leading coefficients:
+    $$\lim_{x \to \infty} f(x) = \frac{1}{1} = 1.$$
+    Similarly:
+    $$\lim_{x \to -\infty} f(x) = 1.$$
+  **Result**: Horizontal asymptote at $y = 1$.
+
+### Final Result for $f(x)$:
+- **Vertical asymptotes**: None
+- **Horizontal asymptote**: $y = 1$
+
+---
+
+## 2. $g(x) = \frac{\sin(x)}{x^2 + 1}$
+
+### Step 1: Vertical Asymptotes
+- Vertical asymptotes occur where the denominator $x^2 + 1 = 0$.
+- Solve:
+  $$x^2 + 1 = 0$$
+  $$x^2 = -1$$
+  Since $x^2$ cannot be negative, there are no real solutions.  
+  **Result**: No vertical asymptotes.
+
+### Step 2: Horizontal Asymptotes
+- Consider the behavior of $g(x)$ as $x \to \infty$ or $x \to -\infty$:
+  - The numerator $\sin(x)$ oscillates between $-1$ and $1$.
+  - The denominator $x^2 + 1 \to \infty$ as $x \to \infty$ or $x \to -\infty$.
+  - Therefore:
+    $$\lim_{x \to \infty} g(x) = 0 \quad \text{and} \quad \lim_{x \to -\infty} g(x) = 0.$$
+  **Result**: Horizontal asymptote at $y = 0$.
+
+### Step 3: Oblique Asymptotes
+- There are no oblique asymptotes because the degree of the numerator ($0$) is less than the degree of the denominator ($2$).
+
+### Final Result for $g(x)$:
+- **Vertical asymptotes**: None
+- **Horizontal asymptote**: $y = 0$
+
+---
+
+## Summary
+### For $f(x) = \frac{x^2 - 1}{x^2 + 1}$:
+- **Vertical asymptotes**: None
+- **Horizontal asymptote**: $y = 1$
+
+### For $g(x) = \frac{\sin(x)}{x^2 + 1}$:
+- **Vertical asymptotes**: None
+- **Horizontal asymptote**: $y = 0$
 
