@@ -508,3 +508,148 @@ $$\lim_{x \to 0} \frac{\sin(3x)}{2x + 1} = 0.$$
 - **Vertical asymptotes**: None
 - **Horizontal asymptote**: $y = 0$
 
+
+------------------------------------------
+---------------------------------------
+----------------------------------------------
+
+
+
+### 1. \(y(x) = -3x + 3\)
+- **Step 1:** Derivative of $-3x$ is $-3$.
+- **Step 2:** Derivative of constant $3$ is $0$.
+$$\frac{dy}{dx}=-3$$
+
+![alt text](image-19.png)
+
+---
+
+### 2. \(y(x) = \pi x + \sin(1)\)
+- **Step 1:** Derivative of $\pi x$ is $\pi$.
+- **Step 2:** Derivative of $\sin(1)$ (a constant) is $0$.
+$$\frac{dy}{dx}=\pi$$
+
+---
+
+### 3. \(y(x) = 4 + \sin(2)\)
+- **Step 1:** Both terms are constants, so the derivative is $0$.
+$$\frac{dy}{dx}=0$$
+
+---
+
+### 4. \(y(x) = 2x^3 - 3x^2 + 8x - 9\)
+- **Step 1:** Differentiate term by term:
+  $$\frac{d}{dx}(2x^3)=6x^2$$  
+  $$\frac{d}{dx}(-3x^2)=-6x$$  
+  $$\frac{d}{dx}(8x)=8$$  
+  $$\frac{d}{dx}(-9)=0$$  
+$$\frac{dy}{dx}=6x^2-6x+8$$
+
+---
+
+### 5. \(y(x) = 6x^{1/3}\)
+- **Step 1:** Apply the power rule:
+$$\frac{d}{dx}(6x^{1/3})=6\cdot\frac{1}{3}x^{-2/3}=2x^{-2/3}$$
+$$\frac{dy}{dx}=2x^{-2/3}$$
+
+---
+
+### 6. \(y(x) = \sqrt{x}\)
+- **Step 1:** Rewrite $\sqrt{x}$ as $x^{1/2}$.
+- **Step 2:** Apply the power rule:
+$$\frac{d}{dx}(x^{1/2})=\frac{1}{2}x^{-1/2}=\frac{1}{2\sqrt{x}}$$
+$$\frac{dy}{dx}=\frac{1}{2\sqrt{x}}$$
+
+---
+
+### 7. \(y(x) = \cos(x) + \sin(x)\)
+- **Step 1:** Derivative of $\cos(x)$ is $-\sin(x)$.
+- **Step 2:** Derivative of $\sin(x)$ is $\cos(x)$.
+$$\frac{dy}{dx}=-\sin(x)+\cos(x)$$
+
+---
+
+### 8. \(y(x) = 2\sin(x)\cos(x)\)
+- **Step 1:** Use the product rule:
+  $u=2\sin(x)$, $v=\cos(x)$.  
+  $u'=2\cos(x)$, $v'=-\sin(x)$.  
+- **Step 2:** Combine terms:
+$$\frac{dy}{dx}=2\cos^2(x)-2\sin^2(x)$$
+
+---
+
+### 9. \(y(x) = x\sin(x)\)
+- **Step 1:** Use the product rule:
+  $u=x$, $v=\sin(x)$.  
+  $u'=1$, $v'=\cos(x)$.  
+- **Step 2:** Combine terms:
+$$\frac{dy}{dx}=\sin(x)+x\cos(x)$$
+
+---
+
+### 10. \(y(x) = (x+1)(x+1)\)
+- **Step 1:** Expand:  
+$$y(x)=x^2+2x+1$$  
+- **Step 2:** Differentiate term by term:
+  $$\frac{d}{dx}(x^2)=2x$$  
+  $$\frac{d}{dx}(2x)=2$$  
+  $$\frac{d}{dx}(1)=0$$  
+$$\frac{dy}{dx}=2x+2$$
+
+---
+
+### 11. \(y(x) = \frac{x}{x+1}\)
+- **Step 1:** Use the quotient rule:
+  $u=x$, $v=x+1$.  
+  $u'=1$, $v'=1$.  
+- **Step 2:** Substitute:
+$$\frac{dy}{dx}=\frac{(1)(x+1)-(x)(1)}{(x+1)^2}=\frac{1}{(x+1)^2}$$
+
+---
+
+### 12. \(y(x) = (x+1)\exp(x)\)
+- **Step 1:** Use the product rule:
+  $u=x+1$, $v=\exp(x)$.  
+  $u'=1$, $v'=\exp(x)$.  
+- **Step 2:** Combine terms:
+$$\frac{dy}{dx}=\exp(x)(x+1)+\exp(x)=\exp(x)(x+2)$$
+
+---
+
+### 13. \(y(x) = \sin(x^2)\)
+- **Step 1:** Use the chain rule:
+  - Outer function: $\sin(u)$, derivative is $\cos(u)$.  
+  - Inner function: $u=x^2$, derivative is $2x$.  
+- **Step 2:** Combine:
+$$\frac{dy}{dx}=2x\cos(x^2)$$
+
+---
+
+### 14. \(y(x) = \exp(-2x)\)
+- **Step 1:** Use the chain rule:
+  - Outer function: $\exp(u)$, derivative is $\exp(u)$.  
+  - Inner function: $u=-2x$, derivative is $-2$.  
+- **Step 2:** Combine:
+$$\frac{dy}{dx}=-2\exp(-2x)$$
+
+---
+
+### 15. \(y(x) = \frac{1}{\sin(x+1)}\)
+- **Step 1:** Rewrite as $y(x)=(\sin(x+1))^{-1}$.  
+- **Step 2:** Use the chain rule:
+  - Outer function: $u^{-1}$, derivative is $-u^{-2}$.  
+  - Inner function: $u=\sin(x+1)$, derivative is $\cos(x+1)$.  
+- **Step 3:** Combine:
+$$\frac{dy}{dx}=-\frac{\cos(x+1)}{\sin^2(x+1)}$$
+
+---
+
+### 16. \(y(x) = \sqrt{2x+1}\)
+- **Step 1:** Rewrite $\sqrt{2x+1}$ as $(2x+1)^{1/2}$.  
+- **Step 2:** Use the chain rule:
+  - Outer function: $u^{1/2}$, derivative is $\frac{1}{2}u^{-1/2}$.  
+  - Inner function: $u=2x+1$, derivative is $2$.  
+- **Step 3:** Combine:
+$$\frac{dy}{dx}=\frac{1}{\sqrt{2x+1}}$$
+
+
