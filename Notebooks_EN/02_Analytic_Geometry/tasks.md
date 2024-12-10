@@ -581,7 +581,7 @@ $$\frac{dy}{dx}=-\sin(x)+\cos(x)$$
 
 ---
 
-### 8. \(y(x) = 2\sin(x)\cos(x)\)
+### 8. $$\(y(x) = 2\sin(x)\cos(x)\)$$
 - **Step 1:** Use the product rule:
   $u=2\sin(x)$, $v=\cos(x)$.  
   $u'=2\cos(x)$, $v'=-\sin(x)$.  
@@ -592,7 +592,7 @@ $$\frac{dy}{dx}=2\cos^2(x)-2\sin^2(x)$$
 
 ---
 
-### 9. \(y(x) = x\sin(x)\)
+### 9. $$\(y(x) = x\sin(x)\)$$
 - **Step 1:** Use the product rule:
   $u=x$, $v=\sin(x)$.  
   $u'=1$, $v'=\cos(x)$.  
@@ -603,7 +603,7 @@ $$\frac{dy}{dx}=\sin(x)+x\cos(x)$$
 
 ---
 
-### 10. \(y(x) = (x+1)(x+1)\)
+### 10. $$\(y(x) = (x+1)(x+1)\)$$
 - **Step 1:** Expand:  
 $$y(x)=x^2+2x+1$$  
 - **Step 2:** Differentiate term by term:
@@ -616,7 +616,7 @@ $$\frac{dy}{dx}=2x+2$$
 
 ---
 
-### 11. \(y(x) = \frac{x}{x+1}\)
+### 11. $$\(y(x) = \frac{x}{x+1}\)$$
 - **Step 1:** Use the quotient rule:
   $u=x$, $v=x+1$.  
   $u'=1$, $v'=1$.  
@@ -627,7 +627,7 @@ $$\frac{dy}{dx}=\frac{(1)(x+1)-(x)(1)}{(x+1)^2}=\frac{1}{(x+1)^2}$$
 
 ---
 
-### 12. \(y(x) = (x+1)\exp(x)\)
+### 12. $$\(y(x) = (x+1)\exp(x)\)$$
 - **Step 1:** Use the product rule:
   $u=x+1$, $v=\exp(x)$.  
   $u'=1$, $v'=\exp(x)$.  
