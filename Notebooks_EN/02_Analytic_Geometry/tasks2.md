@@ -173,17 +173,13 @@ $$
 
 - **Step 4**: Simplify and evaluate the limit.
 -   
-   $$
-   \frac{\frac{1}{x}}{1}=\frac{1}{x}.
-   $$
+   $$  rac{\frac{1}{x}}{1}=\frac{1}{x}.  
 
    As $x \to \infty$, $\frac{1}{x} \to 0$.
 
 **Result**:
 
-$$
-\lim_{x \to \infty}\frac{\ln(x)}{x}=0.
-$$
+$$\lim_{x \to \infty}\frac{\ln(x)}{x}=0.$$
 
 ---
 
@@ -197,19 +193,14 @@ $$
    Derivative of $x$ is $1$.
 
 - **Step 3**: Apply L'Hospital's Rule:
-- 
-   $$
-   \lim_{x \to \infty}\frac{\exp(x)}{x}=\lim_{x \to \infty}\frac{\exp(x)}{1}.
-   $$
+$$\lim_{x \to \infty}\frac{\exp(x)}{x}=\lim_{x \to \infty}\frac{\exp(x)}{1}.$$
 
 - **Step 4**: Evaluate the limit.  
    As $x \to \infty$, $\exp(x) \to \infty$.
 
 **Result**:  
 
-$$
-\lim_{x \to \infty}\frac{\exp(x)}{x}=\infty.
-$$
+$$\lim_{x \to \infty}\frac{\exp(x)}{x}=\infty.$$
 
 ---
 
