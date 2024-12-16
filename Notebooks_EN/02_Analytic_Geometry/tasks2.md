@@ -194,10 +194,10 @@ As $x\to\infty$, $\exp(x)\to\infty$ and $x\to\infty$. The limit is of the form $
 Derivative of $\exp(x)$ is $\exp(x)$.  
 Derivative of $x$ is $1$.
 
-- **Step 3**: Apply L'Hospital's Rule:  
-   $$
-   \lim_{x \to \infty}\frac{\exp(x)}{x}=\lim_{x \to \infty}\frac{\exp(x)}{1}.
-   $$
+- **Step 3**: Apply L'Hospital's Rule:
+$$
+\lim_{x \to \infty}\frac{\exp(x)}{x}=\lim_{x \to \infty}\frac{\exp(x)}{1}.
+$$
 
 - **Step 4**: Evaluate the limit.  
 As $x\to\infty$, $\exp(x)\to\infty$.
