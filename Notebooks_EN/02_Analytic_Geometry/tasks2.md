@@ -161,10 +161,7 @@ $$
 
 - **Step 2**: Differentiate the numerator and denominator. Derivative of $\exp(x)$ is $\exp(x)$, and derivative of $x$ is $1$.
 
-- **Step 3**: Apply L'Hospital's Rule:  
-   $$
-   \lim_{x \to \infty}\frac{\exp(x)}{x}=\lim_{x \to \infty}\frac{\exp(x)}{1}.
-   $$
+- **Step 3**: Apply L'Hospital's Rule: $\lim_{x\to\infty}\frac{\exp(x)}{x}=\lim_{x\to\infty}\frac{\exp(x)}{1}$.
 
 - **Step 4**: Evaluate the limit. As $x\to\infty$, $\exp(x)\to\infty$, so the result is $\lim_{x\to\infty}\frac{\exp(x)}{x}=\infty$.
 
@@ -175,6 +172,7 @@ $$
 1. $\lim_{x\to0}\frac{\sin(x)}{x}=1$  
 2. $\lim_{x\to\infty}\frac{\ln(x)}{x}=0$  
 3. $\lim_{x\to\infty}\frac{\exp(x)}{x}=\infty$
+
 
 
 
