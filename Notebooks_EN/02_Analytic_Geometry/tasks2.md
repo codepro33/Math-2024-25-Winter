@@ -190,48 +190,46 @@ We need to find:
 
 ### **Step 1: Find the velocity $V(t)$**
 The velocity is the first derivative of $x(t)$ with respect to $t$:  
-$
+$$
 V(t)=x'(t)=\frac{d}{dt}(3t^2-6t+1)
-$
+$$
 
 Differentiating term by term:  
-$
+$$
 V(t)=6t-6
-$
+$$
 
 ---
 
 ### **Step 2: Find the acceleration $a(t)$**
 The acceleration is the derivative of the velocity, which is the second derivative of $x(t)$:  
-$
+$$
 a(t)=x''(t)=\frac{d}{dt}(V(t))=\frac{d}{dt}(6t-6)
-$
+$$
 
 Differentiating:  
-$
+$$
 a(t)=6
-$
+$$
 
 ---
 
 ### **Step 3: Evaluate at $t=2$**
 1. **Velocity at $t=2$:**  
    Substitute $t=2$ into $V(t)=6t-6$:  
-   $
+   $$
    V(2)=6(2)-6=12-6=6
-   $
+   $$
 
 2. **Acceleration at $t=2$:**  
    The acceleration is constant, so:  
-   $
+   $$
    a(2)=6
-   $
+   $$
 
 ---
 
 ### **Final Answers**
 - Velocity at $t=2$: $V(2)=6$  
 - Acceleration at $t=2$: $a(2)=6$
-
-
 
