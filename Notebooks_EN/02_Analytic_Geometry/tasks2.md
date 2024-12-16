@@ -127,85 +127,86 @@ $$
 ![alt text](image-37.png)
 
 
-### **1. \( \lim_{x \to 0} \frac{\sin(x)}{x} \)**
+### **1. \(\lim_{x \to 0}\frac{\sin(x)}{x}\)**
 
 - **Step 1**: Identify the indeterminate form.  
-   As \( x \to 0 \), \( \sin(x) \to 0 \) and \( x \to 0 \). The limit is of the form \( \frac{0}{0} \).
+   As \(x \to 0\), \(\sin(x) \to 0\) and \(x \to 0\). The limit is of the form \(\frac{0}{0}\).
 
 - **Step 2**: Differentiate the numerator and denominator.  
-   Derivative of \( \sin(x) \) is \( \cos(x) \).  
-   Derivative of \( x \) is \( 1 \).
+   Derivative of \(\sin(x)\) is \(\cos(x)\).  
+   Derivative of \(x\) is \(1\).
 
 - **Step 3**: Apply L'Hospital's Rule:  
    $$
-   \lim_{x \to 0} \frac{\sin(x)}{x} = \lim_{x \to 0} \frac{\cos(x)}{1}.
+   \lim_{x \to 0}\frac{\sin(x)}{x}=\lim_{x \to 0}\frac{\cos(x)}{1}.
    $$
 
 - **Step 4**: Evaluate the limit.  
    $$
-   \cos(0) = 1.
+   \cos(0)=1.
    $$
 
 **Result**:  
 $$
-\lim_{x \to 0} \frac{\sin(x)}{x} = 1.
+\lim_{x \to 0}\frac{\sin(x)}{x}=1.
 $$
 
 ---
 
-### **2. \( \lim_{x \to \infty} \frac{\ln(x)}{x} \)**
+### **2. \(\lim_{x \to \infty}\frac{\ln(x)}{x}\)**
 
 - **Step 1**: Identify the indeterminate form.  
-   As \( x \to \infty \), \( \ln(x) \to \infty \) and \( x \to \infty \). The limit is of the form \( \frac{\infty}{\infty} \).
+   As \(x \to \infty\), \(\ln(x) \to \infty\) and \(x \to \infty\). The limit is of the form \(\frac{\infty}{\infty}\).
 
 - **Step 2**: Differentiate the numerator and denominator.  
-   Derivative of \( \ln(x) \) is \( \frac{1}{x} \).  
-   Derivative of \( x \) is \( 1 \).
+   Derivative of \(\ln(x)\) is \(\frac{1}{x}\).  
+   Derivative of \(x\) is \(1\).
 
 - **Step 3**: Apply L'Hospital's Rule:  
    $$
-   \lim_{x \to \infty} \frac{\ln(x)}{x} = \lim_{x \to \infty} \frac{\frac{1}{x}}{1}.
+   \lim_{x \to \infty}\frac{\ln(x)}{x}=\lim_{x \to \infty}\frac{\frac{1}{x}}{1}.
    $$
 
 - **Step 4**: Simplify and evaluate the limit.  
    $$
-   \frac{\frac{1}{x}}{1} = \frac{1}{x}.
+   \frac{\frac{1}{x}}{1}=\frac{1}{x}.
    $$  
-   As \( x \to \infty \), \( \frac{1}{x} \to 0 \).
+   As \(x \to \infty\), \(\frac{1}{x} \to 0\).
 
 **Result**:  
 $$
-\lim_{x \to \infty} \frac{\ln(x)}{x} = 0.
+\lim_{x \to \infty}\frac{\ln(x)}{x}=0.
 $$
 
 ---
 
-### **3. \( \lim_{x \to \infty} \frac{\exp(x)}{x} \)**
+### **3. \(\lim_{x \to \infty}\frac{\exp(x)}{x}\)**
 
 - **Step 1**: Identify the indeterminate form.  
-   As \( x \to \infty \), \( \exp(x) \to \infty \) and \( x \to \infty \). The limit is of the form \( \frac{\infty}{\infty} \).
+   As \(x \to \infty\), \(\exp(x) \to \infty\) and \(x \to \infty\). The limit is of the form \(\frac{\infty}{\infty}\).
 
 - **Step 2**: Differentiate the numerator and denominator.  
-   Derivative of \( \exp(x) \) is \( \exp(x) \).  
-   Derivative of \( x \) is \( 1 \).
+   Derivative of \(\exp(x)\) is \(\exp(x)\).  
+   Derivative of \(x\) is \(1\).
 
 - **Step 3**: Apply L'Hospital's Rule:  
    $$
-   \lim_{x \to \infty} \frac{\exp(x)}{x} = \lim_{x \to \infty} \frac{\exp(x)}{1}.
+   \lim_{x \to \infty}\frac{\exp(x)}{x}=\lim_{x \to \infty}\frac{\exp(x)}{1}.
    $$
 
 - **Step 4**: Evaluate the limit.  
-   As \( x \to \infty \), \( \exp(x) \to \infty \).
+   As \(x \to \infty\), \(\exp(x) \to \infty\).
 
 **Result**:  
 $$
-\lim_{x \to \infty} \frac{\exp(x)}{x} = \infty.
+\lim_{x \to \infty}\frac{\exp(x)}{x}=\infty.
 $$
 
 ---
 
 ### **Final Answers**
 
-1. \( \lim_{x \to 0} \frac{\sin(x)}{x} = 1 \)
-2. \( \lim_{x \to \infty} \frac{\ln(x)}{x} = 0 \)
-3. \( \lim_{x \to \infty} \frac{\exp(x)}{x} = \infty \)
+1. $$\lim_{x \to 0}\frac{\sin(x)}{x}=1$$  
+2. $$\lim_{x \to \infty}\frac{\ln(x)}{x}=0$$  
+3. $$\lim_{x \to \infty}\frac{\exp(x)}{x}=\infty$$
+
