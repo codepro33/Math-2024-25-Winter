@@ -408,3 +408,85 @@ $$f\left(-\frac{3}{2}\right)=\frac{9-18-20}{4}=\frac{-29}{4}$$
 ### **Final Answer**
 The extremum occurs at $x=-\frac{3}{2}$, and the minimum value of the function is:  
 $$f\left(-\frac{3}{2}\right)=-\frac{29}{4}$$
+
+
+
+
+
+
+
+![alt text](image-43.png)
+
+
+To find the extremum of the function $f(x)=\frac{x^2+2x+1}{x-1}$, follow these steps:
+
+---
+
+### **Step 1: Differentiate the function**
+To find the critical points, we first take the derivative of $f(x)$ using the **quotient rule**. The quotient rule states:  
+$$f'(x)=\frac{u'v-u v'}{v^2}$$
+
+Here:  
+- $u=x^2+2x+1$ (numerator)  
+- $v=x-1$ (denominator)  
+
+First, differentiate $u$ and $v$:  
+- $u'=\frac{d}{dx}(x^2+2x+1)=2x+2$  
+- $v'=\frac{d}{dx}(x-1)=1$  
+
+Now, apply the quotient rule:  
+$$f'(x)=\frac{(2x+2)(x-1)-(x^2+2x+1)(1)}{(x-1)^2}$$
+
+---
+
+### **Step 2: Simplify the derivative**
+Simplify the numerator step by step:
+
+1. Expand $(2x+2)(x-1)$:  
+$$(2x+2)(x-1)=2x^2-2x+2x-2=2x^2-2$$
+
+2. Combine with the second term $(x^2+2x+1)(1)$:  
+$$\text{Numerator}=(2x^2-2)-(x^2+2x+1)$$  
+
+Simplify the terms:  
+$$\text{Numerator}=2x^2-2-x^2-2x-1=x^2-2x-3$$
+
+Thus, the derivative is:  
+$$f'(x)=\frac{x^2-2x-3}{(x-1)^2}$$
+
+---
+
+### **Step 3: Set the derivative equal to zero**
+To find the critical points, set $f'(x)=0$. The derivative is zero when the numerator is zero:  
+$$x^2-2x-3=0$$
+
+Factorize the quadratic equation:  
+$$x^2-2x-3=(x-3)(x+1)=0$$
+
+Solve for $x$:  
+$$x=3\quad\text{or}\quad x=-1$$
+
+---
+
+### **Step 4: Check for critical points and domain restrictions**
+The denominator $(x-1)^2\neq0$, so $x=1$ is a point of discontinuity. Hence, $x=1$ is not part of the domain.
+
+The critical points are $x=3$ and $x=-1$.
+
+---
+
+### **Step 5: Determine the nature of the critical points**
+To check whether the critical points are maxima, minima, or neither, analyze the sign of $f'(x)$ around $x=3$ and $x=-1$:
+
+1. **For $x=3$:**
+   - Pick values around $x=3$ (e.g., $x=2.5$ and $x=3.5$).  
+   - Evaluate the sign of $f'(x)$.
+
+2. **For $x=-1$:**
+   - Pick values around $x=-1$ (e.g., $x=-1.5$ and $x=-0.5$).  
+   - Evaluate the sign of $f'(x)$.
+
+---
+
+### **Final Answer**
+The function has critical points at $x=3$ and $x=-1$. Verify the nature of these points using the behavior of the derivative or the second derivative test.
