@@ -280,6 +280,11 @@ $$u=12.5$$
 
 To solve this problem, where we need to enclose the **largest possible rectangular area** with a string of length 10 meters, we follow these steps:
 
+
+
+
+
+
 ---
 
 ### **Step 1: Define the problem**
@@ -344,3 +349,62 @@ Since $A''(l)<0$, the critical point $l=2.5$ gives a maximum area.
 ### **Final Answer**
 The dimensions of the rectangle that enclose the largest possible area are:  
 $$l=2.5\,\text{meters},\,w=2.5\,\text{meters}$$
+
+
+
+
+
+
+
+
+
+![alt text](image-42.png)
+
+To find the extremum of the given function $f(x)=x^2+3x-5$, we proceed as follows:
+
+---
+
+### **Step 1: Differentiate the function**
+The extremum occurs where the derivative of $f(x)$ is equal to zero. Differentiate $f(x)$ with respect to $x$:  
+$$f'(x)=\frac{d}{dx}(x^2+3x-5)$$
+
+Differentiate term by term:  
+$$f'(x)=2x+3$$
+
+---
+
+### **Step 2: Set the derivative equal to zero**
+To find the critical point, set $f'(x)=0$:  
+$$2x+3=0$$
+
+Solve for $x$:  
+$$x=-\frac{3}{2}$$
+
+---
+
+### **Step 3: Verify the extremum**
+To determine whether the critical point is a minimum or maximum, take the second derivative of $f(x)$:  
+$$f''(x)=\frac{d}{dx}(2x+3)=2$$
+
+Since $f''(x)=2>0$, the function is concave up, meaning the critical point at $x=-\frac{3}{2}$ is a **minimum**.
+
+---
+
+### **Step 4: Find the value of the extremum**
+Substitute $x=-\frac{3}{2}$ into the original function $f(x)$:  
+$$f\left(-\frac{3}{2}\right)=\left(-\frac{3}{2}\right)^2+3\left(-\frac{3}{2}\right)-5$$
+
+Simplify step by step:  
+$$f\left(-\frac{3}{2}\right)=\frac{9}{4}-\frac{9}{2}-5$$
+
+Convert terms to have a common denominator:  
+$$f\left(-\frac{3}{2}\right)=\frac{9}{4}-\frac{18}{4}-\frac{20}{4}$$
+
+Combine the terms:  
+$$f\left(-\frac{3}{2}\right)=\frac{9-18-20}{4}=\frac{-29}{4}$$
+
+---
+
+### **Final Answer**
+The extremum occurs at $x=-\frac{3}{2}$, and the minimum value of the function is:  
+$$f\left(-\frac{3}{2}\right)=-\frac{29}{4}$$
