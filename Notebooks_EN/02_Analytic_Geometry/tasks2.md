@@ -220,3 +220,127 @@ $a(t)=6$
 ### **Final Answers**
 - Velocity at $t=2$: $V(2)=6$  
 - Acceleration at $t=2$: $a(2)=6$
+
+
+To solve for the number of units $u$ that maximize the profit for the given profit function:
+
+$$P(u)=-2u^2+50u-300$$
+
+---
+
+### **Step 1: Differentiate the profit function**
+To find the maximum, take the first derivative of $P(u)$ with respect to $u$:
+
+$$P'(u)=\frac{d}{du}(-2u^2+50u-300)$$
+
+Differentiate term by term:
+
+$$P'(u)=-4u+50$$
+
+---
+
+EXTREMUM
+
+![alt text](image-40.png)
+
+### **Step 2: Set the derivative equal to zero**
+To find the critical point, set $P'(u)=0$ and solve for $u$:
+
+$$-4u+50=0$$
+
+Rearranging gives:
+
+$$4u=50$$
+
+Solve for $u$:
+
+$$u=\frac{50}{4}=12.5$$
+
+---
+
+### **Step 3: Verify it is a maximum**
+To confirm that $u=12.5$ is a maximum, check the second derivative of $P(u)$:
+
+$$P''(u)=\frac{d}{du}(-4u+50)$$
+
+The second derivative is:
+
+$$P''(u)=-4$$
+
+Since $P''(u)=-4<0$, the profit function is concave down, meaning $u=12.5$ gives a maximum.
+
+---
+
+### **Final Answer**
+The number of units that maximize profit is:
+
+$$u=12.5$$
+
+![alt text](image-41.png)
+
+To solve this problem, where we need to enclose the **largest possible rectangular area** with a string of length 10 meters, we follow these steps:
+
+---
+
+### **Step 1: Define the problem**
+The string forms the perimeter of a rectangle. Let:  
+- $l$ = length of the rectangle  
+- $w$ = width of the rectangle  
+
+The perimeter of the rectangle is given by:  
+$$P=2l+2w$$
+
+We are told the total perimeter is 10 meters, so:  
+$$2l+2w=10\quad\text{or equivalently}\quad l+w=5$$
+
+We need to **maximize the area** $A$ of the rectangle, which is given by:  
+$$A=l\cdot w$$
+
+---
+
+### **Step 2: Express $w$ in terms of $l$**
+From the perimeter equation $l+w=5$, solve for $w$:  
+$$w=5-l$$
+
+---
+
+### **Step 3: Write the area in terms of $l$**
+Substitute $w=5-l$ into the area equation $A=l\cdot w$:  
+$$A=l\cdot(5-l)$$
+
+Simplify:  
+$$A=5l-l^2$$
+
+---
+
+### **Step 4: Maximize the area**
+To maximize $A=5l-l^2$, take the derivative of $A$ with respect to $l$ and set it equal to zero:  
+$$A'(l)=\frac{d}{dl}(5l-l^2)$$
+
+Differentiate term by term:  
+$$A'(l)=5-2l$$
+
+Set $A'(l)=0$ to find the critical point:  
+$$5-2l=0$$
+
+Solve for $l$:  
+$$l=\frac{5}{2}=2.5$$
+
+---
+
+### **Step 5: Find $w$ and verify the maximum**
+From $w=5-l$, substitute $l=2.5$:  
+$$w=5-2.5=2.5$$
+
+Thus, the rectangle is a square with dimensions $l=2.5$ and $w=2.5$.
+
+To confirm it's a maximum, note that the second derivative of $A$ is:  
+$$A''(l)=\frac{d}{dl}(-2l)=-2$$
+
+Since $A''(l)<0$, the critical point $l=2.5$ gives a maximum area.
+
+---
+
+### **Final Answer**
+The dimensions of the rectangle that enclose the largest possible area are:  
+$$l=2.5\,\text{meters},\,w=2.5\,\text{meters}$$
