@@ -490,3 +490,63 @@ To check whether the critical points are maxima, minima, or neither, analyze the
 
 ### **Final Answer**
 The function has critical points at $x=3$ and $x=-1$. Verify the nature of these points using the behavior of the derivative or the second derivative test.
+
+
+
+
+
+![alt text](image-44.png)
+
+
+
+To find the **Taylor series expansion** of $f(x)=\cos(x)$ around $x=0$ up to the 4th degree, follow these steps:
+
+---
+
+### **Step 1: Formula for the Taylor series**
+The Taylor series of a function $f(x)$ around $x=0$ (Maclaurin series) is given by:  
+$$f(x)=f(0)+\frac{f'(0)}{1!}x+\frac{f''(0)}{2!}x^2+\frac{f'''(0)}{3!}x^3+\frac{f^{(4)}(0)}{4!}x^4+\dots$$
+
+We calculate the derivatives of $\cos(x)$, evaluate them at $x=0$, and include terms up to degree 4.
+
+---
+
+### **Step 2: Derivatives of $\cos(x)$**
+
+1. **First derivative:**  
+$$f'(x)=-\sin(x),\quad f'(0)=-\sin(0)=0$$
+
+2. **Second derivative:**  
+$$f''(x)=-\cos(x),\quad f''(0)=-\cos(0)=-1$$
+
+3. **Third derivative:**  
+$$f'''(x)=\sin(x),\quad f'''(0)=\sin(0)=0$$
+
+4. **Fourth derivative:**  
+$$f^{(4)}(x)=\cos(x),\quad f^{(4)}(0)=\cos(0)=1$$
+
+---
+
+### **Step 3: Substitute into the Taylor series**
+
+Now substitute the values of $f(0)$, $f'(0)$, $f''(0)$, $f'''(0)$, and $f^{(4)}(0)$ into the Taylor series formula:
+
+$$f(x)=f(0)+\frac{f'(0)}{1!}x+\frac{f''(0)}{2!}x^2+\frac{f'''(0)}{3!}x^3+\frac{f^{(4)}(0)}{4!}x^4$$
+
+Substitute the values:  
+- $f(0)=1$  
+- $f'(0)=0$  
+- $f''(0)=-1$  
+- $f'''(0)=0$  
+- $f^{(4)}(0)=1$
+
+$$f(x)=1+0\cdot x+\frac{-1}{2!}x^2+0\cdot x^3+\frac{1}{4!}x^4$$
+
+Simplify the terms:  
+$$f(x)=1-\frac{x^2}{2}+\frac{x^4}{24}$$
+
+---
+
+### **Final Answer**
+The Taylor series expansion of $\cos(x)$ around $x=0$ up to the 4th degree is:  
+$$\cos(x)\approx 1-\frac{x^2}{2}+\frac{x^4}{24}$$
