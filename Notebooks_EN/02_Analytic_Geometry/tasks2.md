@@ -53,6 +53,12 @@ $$
 \frac{d}{dx} \left( \ln(\sin(x)) \right) = \cot(x)
 $$
 
+
+
+![alt text](image-48.png)
+
+
+
 ### **Conclusion**:
 
 The proof is complete!
