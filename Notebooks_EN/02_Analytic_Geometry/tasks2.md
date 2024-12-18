@@ -550,3 +550,44 @@ $$f(x)=1-\frac{x^2}{2}+\frac{x^4}{24}$$
 ### **Final Answer**
 The Taylor series expansion of $\cos(x)$ around $x=0$ up to the 4th degree is:  
 $$\cos(x)\approx 1-\frac{x^2}{2}+\frac{x^4}{24}$$
+
+![alt text](image-45.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+![alt text](image-46.png)
+
+
+
+To find the **Taylor series expansion** of $h(x)=\frac{1}{1-x}$ around $x=0$ up to the **4th degree**, we proceed as follows:
+
+---
+
+### **Step 1: Recognize the geometric series formula**
+The function $h(x)=\frac{1}{1-x}$ has a known Taylor series expansion for $|x|<1$:  
+$$\frac{1}{1-x}=\sum_{n=0}^{\infty}x^n=1+x+x^2+x^3+x^4+\dots$$
+
+---
+
+### **Step 2: Write terms up to the 4th degree**
+To expand $h(x)$ up to the 4th degree, take the first 5 terms of the series:  
+$$\frac{1}{1-x}\approx 1+x+x^2+x^3+x^4$$
+
+---
+
+### **Final Answer**
+The Taylor series of $h(x)=\frac{1}{1-x}$ around $x=0$ up to the 4th degree is:  
+$$h(x)\approx 1+x+x^2+x^3+x^4$$
+
+
+![alt text](image-47.png)
