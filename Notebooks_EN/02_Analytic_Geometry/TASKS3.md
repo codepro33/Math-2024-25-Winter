@@ -48,3 +48,58 @@
 14. **$\int x e^x \, dx$**  
     Use integration by parts: Let $u = x$ and $dv = e^x \, dx$:  
     $$\int x e^x \, dx = (x - 1)e^x + C$$
+
+
+
+
+
+
+### Solutions:
+
+We are calculating the integrals of two functions over the interval \([0, \pi]\):
+
+---
+
+1. **Integral of \( f(x) = 2x + 1 \):**
+   $$\int_{0}^{\pi} (2x + 1) \, dx$$
+
+   #### Step 1: Integrate \( f(x) \)
+   Using the linearity of integration:
+   $$\int (2x + 1) \, dx = \int 2x \, dx + \int 1 \, dx = x^2 + x + C$$
+
+   #### Step 2: Evaluate over \([0, \pi]\)
+   Substituting the limits of integration:
+   $$\int_{0}^{\pi} (2x + 1) \, dx = \left[ x^2 + x \right]_0^\pi$$
+
+   Calculating:
+   $$\int_{0}^{\pi} (2x + 1) \, dx = \left( (\pi)^2 + \pi \right) - \left( 0^2 + 0 \right)$$
+
+   Final result:
+   $$\int_{0}^{\pi} (2x + 1) \, dx = \pi^2 + \pi$$
+
+---
+
+2. **Integral of \( g(x) = x^2 \):**
+   $$\int_{0}^{\pi} x^2 \, dx$$
+
+   #### Step 1: Integrate \( g(x) \)
+   Using the power rule for integration:
+   $$\int x^2 \, dx = \frac{x^3}{3} + C$$
+
+   #### Step 2: Evaluate over \([0, \pi]\)
+   Substituting the limits of integration:
+   $$\int_{0}^{\pi} x^2 \, dx = \left[ \frac{x^3}{3} \right]_0^\pi$$
+
+   Calculating:
+   $$\int_{0}^{\pi} x^2 \, dx = \frac{(\pi)^3}{3} - \frac{(0)^3}{3}$$
+
+   Final result:
+   $$\int_{0}^{\pi} x^2 \, dx = \frac{\pi^3}{3}$$
+
+---
+
+### Final Results:
+
+- \( \int_{0}^{\pi} (2x + 1) \, dx = \pi^2 + \pi \)  
+- \( \int_{0}^{\pi} x^2 \, dx = \frac{\pi^3}{3} \)
+
