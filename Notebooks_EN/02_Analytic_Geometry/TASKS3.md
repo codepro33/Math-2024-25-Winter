@@ -77,6 +77,12 @@ We are calculating the integrals of two functions over the interval \([0, \pi]\)
    Final result:
    $$\int_{0}^{\pi} (2x + 1) \, dx = \pi^2 + \pi$$
 
+
+
+  ![alt text](<Снимок экрана 2025-01-15 075258.png>)
+
+
+
 ---
 
 2. **Integral of \( g(x) = x^2 \):**
@@ -95,6 +101,10 @@ We are calculating the integrals of two functions over the interval \([0, \pi]\)
 
    Final result:
    $$\int_{0}^{\pi} x^2 \, dx = \frac{\pi^3}{3}$$
+
+
+![alt text](image-49.png)
+
 
 ---
 
