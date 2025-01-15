@@ -106,10 +106,3 @@ We are calculating the integrals of two functions over the interval \([0, \pi]\)
 ![alt text](image-49.png)
 
 
----
-
-### Final Results:
-
-- \( \int_{0}^{\pi} (2x + 1) \, dx = \pi^2 + \pi \)  
-- \( \int_{0}^{\pi} x^2 \, dx = \frac{\pi^3}{3} \)
-
